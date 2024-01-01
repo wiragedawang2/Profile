@@ -1,0 +1,46 @@
+div.head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+span{
+    font-size:xx-large;
+    background-color: aqua;
+}
+
+img#headerfoto{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+div.Sayhello{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+div.moreHello{
+    align-items: baseline;
+    flex-direction:row;
+}
+
+div.adding{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+div.morBio{
+    background-color: rgb(14, 150, 199);
+    justify-content: end;
+    color: white;
+    width: 50%;
+}
+
+div.gallery{
+    width: 400px;
+}
+div.gallery img{
+    width: 400px;
+    height: 700px;
+}
